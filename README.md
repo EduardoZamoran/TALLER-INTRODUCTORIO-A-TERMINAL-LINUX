@@ -9,15 +9,11 @@ Materiales de práctica del taller. Antes de empezar, instala Ubuntu en Windows 
 Dentro de Ubuntu, escribe estos comandos uno a la vez:
 
 ```
-wget -O setup.sh "https://raw.githubusercontent.com/EduardoZamoran/taller-linux-cass/main/setup.sh"
-bash setup.sh
+wget "https://raw.githubusercontent.com/EduardoZamoran/TALLER-INTRODUCTORIO-A-TERMINAL-LINUX/refs/heads/main/setup.sh"
+chmod u+x setup.sh
+./setup.sh
 ```
-
-Esto crea la carpeta `~/taller_cass` con los archivos de práctica. Para comprobarlo:
-
-```
-ls ~/taller_cass
-```
+Esto crea la carpeta "taller_cas" en el directorio ~. En ella se encuentran los recursos necesarios para el curso.
 
 Si `wget` no está instalado: `sudo apt install -y wget`
 
